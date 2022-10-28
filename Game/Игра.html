@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="Игра.css" type="text/css"/>
+  </head>
+  <body>
+    <div id="result" class="result hided"></div>
+
+    <div class="game-board" id="gameBoard">
+      <div class="square" id="1" name="moveSquare"></div>
+      <div class="square" id="2" name="moveSquare"></div>
+      <div class="square" id="3" name="moveSquare"></div>
+      <div class="square" id="4" name="moveSquare"></div>
+      <div class="square" id="5" name="moveSquare"></div>
+      <div class="square" id="6" name="moveSquare"></div>
+      <div class="square" id="7" name="moveSquare"></div>
+      <div class="square" id="8" name="moveSquare"></div>
+      <div class="square" id="9" name="moveSquare"></div>
+    </div>
+
+    <div class="game-controls-inner">
+      <button id="newGameButton" onclick="startGame()">Новая игра</button>
+      <button id="backgroundChangeButton" onclick="changeBackground()">Сменить фон</button>
+    </div>
+    
+    <script src="Игра.js"></script>
+  </body>
+</html>
