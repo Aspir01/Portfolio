@@ -63,7 +63,7 @@ const move = (e) => {
     return;
   }
 
-  const cell = e.path.find((el) => el.classList.contains("square"));
+  const cell = e.target.closest('.square');
   const id = Number(cell.id);
 
   if (teamMoves[0].includes(id) || teamMoves[1].includes(id)) {
