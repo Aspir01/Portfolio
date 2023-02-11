@@ -13,13 +13,13 @@ const winCombos = [
 
 const circle = `
   <svg id="circle">
-    <circle r="45" cx="58" cy="58" stroke = "#20ffe0" stroke-width="15" fill = "none"/>
+    <circle r="45" cx="58" cy="58" stroke = "#0303ac" stroke-width="16" fill = "none"/>
   </svg>
 `;
 const cross = `
   <svg id="cross">
-    <line x1="15" y1="15" x2="100" y2="100" stroke="red" stroke-width="15" />
-    <line x1="100" y1="15" x2="15" y2="100" stroke="red" stroke-width="15" />
+    <line x1="15" y1="15" x2="100" y2="100" stroke="red" stroke-width="16" />
+    <line x1="100" y1="15" x2="15" y2="100" stroke="red" stroke-width="16" />
   </svg>
 `;
 
